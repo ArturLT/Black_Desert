@@ -1,0 +1,436 @@
+*{
+	margin: 0;
+	padding: 0; 
+	font-family: arial;
+}
+#logo{
+	max-width: 100%;
+}
+#logo img{
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	height: 850px;
+}
+
+body{
+    background-image: url(../imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2{
+	color: aliceblue;
+}
+
+li{
+	color: aliceblue;
+}
+
+#cabesalho{
+	background-image: linear-gradient(to right, #000000 , #bbbbbb);
+}
+
+#cabesalho #logo{
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#cabesalho #menu{
+	background-color: linear-gradient(to right, #000000 , #bbbbbb);
+	text-align: center;
+}
+
+#cabesalho #menu li{
+	display: inline-block;
+	position: relative;
+    color: aliceblue;
+}
+#cabesalho #menu ul ul{
+	background-color: #000000;
+	width: 100%;
+	display: none;
+	position: absolute;
+}
+#cabesalho #menu li a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	transition: all 0.2s linear;
+}
+#cabesalho #menu li a::before{
+	font-size: 15px;
+	margin-right: 10px;
+	color: #000000;
+}
+#cabesalho #menu li a:hover{
+	background-color: rgb(46, 46, 46);
+}
+
+#conteudo{
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+#conteudo p{
+	text-align: justify;
+	margin-bottom: 20px;
+	line-height: 20px;
+    color: aliceblue;
+}
+
+#conteudo #container{
+    background-color: #000000e7;
+    padding: 30px;
+}
+
+#video{
+    background-color:#000000e7;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#video iframe{
+    max-width: 800px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+}
+
+#video .titulo-secao{
+    margin-bottom: 20px;
+}
+
+#rodape{
+	background-color: #000000e7;
+	padding: 30px;
+	margin-top: 100px;
+    text-align: center;
+}
+
+#rodape a{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+span{
+	color: aliceblue;
+}
+
+#rodape address{
+	color:rgb(177, 177, 177);
+	text-align: center;
+}
+
+.conteiner_classes{
+	background-color: #4879b9;
+	
+}
+
+#cavaleiro{
+	background-image: url(../imagens/striker.jpg);
+	max-width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.lado_esq{
+	color: rgb(19, 23, 236);
+	max-width: 80%;
+	text-align: justify;
+	height: 500px;
+	margin: 30px auto;
+	border: 10px solid #bbbbbb;
+}
+
+.lado_esq p{
+	line-height: 20px;
+	max-width: 100%;
+	padding: 15px;
+}
+
+.lado_esq h1{
+	color: rgb(19, 23, 236);
+	text-align: center;
+	padding: 15px;
+}
+
+.lado_esq iframe{
+	float: left;
+	width: 600px;
+	height: 300px;
+	margin: 15;
+	padding: 15px;
+}
+
+
+
+.lado_di{
+	color: rgb(19, 23, 236);
+	max-width: 80%;
+	text-align: justify;
+	height: 500px;
+	margin: 30px auto;
+	border: 10px solid #bbbbbb;
+}
+
+.lado_di p{
+	line-height: 20px;
+	max-width: 800px;
+	padding: 15px;
+}
+
+.lado_di h1{
+	color: rgb(19, 23, 236);
+	text-align: center;
+	padding: 15px;
+}
+
+.lado_di iframe{
+	float: right;
+	width: 600px;
+	height: 300px;
+	margin: 15;
+	padding: 15px;
+}
+
+#guerreiro{
+	background-image: url(../imagens/classes/guerreiro.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#caçadora{
+	background-image: url(../imagens/classes/caçadora.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#feiticeira{
+	background-image: url(../imagens/classes/feiticeira.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#berserker{
+	background-image: url(../imagens/classes/berserker.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bruxa{
+	background-image: url(../imagens/classes/bruxa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mago{
+	background-image: url(../imagens/classes/mago.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#domadora{
+	background-image: url(../imagens/classes/domadora.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#valquiria{
+	background-image: url(../imagens/classes/valquiria.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#ninja{
+	background-image: url(../imagens/classes/ninja.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#kunoichi{
+	background-image: url(../imagens/classes//kunoichi.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#musah{
+	background-image: url(../imagens/classes/musa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#maehwa{
+	background-image: url(../imagens/classes/maehwa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#lutador{
+	background-image: url(../imagens/classes/lutador.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#cavaleira_trevas{
+	background-image: url(../imagens/classes/caveleira_trevas.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mistica{
+	background-image: url(../imagens/classes/mistica.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#arqueiro{
+	background-image: url(../imagens/classes/arqueiro.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#lahn{
+	background-image: url(../imagens/classes/lahn.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#shai{
+	background-image: url(../imagens/classes/shai.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#guardia{
+	background-image: url(../imagens/classes/guardia.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#hanshashin{
+	background-image: url(../imagens/classes/hashashin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#nova{
+	background-image: url(../imagens/classes/nova.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#sage{
+	background-image: url(../imagens/classes/sage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#corsaria{
+	background-image: url(../imagens/classes/corsaria.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#suporte{
+	margin-top: 100px;
+}
+
+#suporte fieldset div{
+	margin-bottom: 20px;
+}
+
+#suporte input,
+#suporte select,
+#suporte textarea{
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #292929;
+	
+}
+
+#suporte fieldset{
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#suporte input:focus,
+#suporte select:focus,
+#suporte textarea:focus{
+	background-color: #bbbbbb;
+}
+
+#suporte textarea{
+	display: block;
+	resize: none;
+}
+
+#suporte #but{
+	background-color: #bbbbbb;
+	color: #FFF;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#suporte #but:hover{
+	background-color: #777777;
+}
+
+.Abaixar{
+	display:block;
+}
+
+#galeria{
+    padding: 50px 0;
+}
+
+#galeria #galeria_fotos{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+	gap: 20px;
+    
+}
+
+#galeria #galeria_fotos img{
+    display: block;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+#galeria #galeria_fotos img:hover{
+    transform: scale(1.1);
+}
+
+#galeria h2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+#download{
+	margin-top: 100px;
+}
+
+#download div{
+	max-width: 800px;
+	margin: 0px auto;
+	text-align: center;
+	border: 5px dotted #777777;
+	padding: 20px;
+}
+
+#download a{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 32px;
+	max-width: 200px;
+	background-color: rgb(55, 165, 165);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 1px solid rgb(55, 165, 165);
+	border-left:10px solid rgb(61, 182, 182);
+	transition: all 0.25s ease-in-out;
+}
+
+#download a:hover{
+	color: rgb(61, 182, 182);
+	background-color: white;
+}
+
+#download h1{
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+	color: #000000;
+}
